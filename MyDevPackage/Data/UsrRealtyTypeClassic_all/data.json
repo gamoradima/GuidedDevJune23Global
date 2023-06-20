@@ -1,0 +1,84 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a02802ae-18b9-4336-b046-5ff8a88b3fe5"
+        },
+        {
+          "SchemaColumnUId": "7ef7c259-517b-33aa-4835-6b3d1ecddfd7",
+          "Value": "CD-02"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1687273166414+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1687273166414+0300)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "a7375586-d861-4495-8516-e1a885ea9346"
+        },
+        {
+          "SchemaColumnUId": "7ef7c259-517b-33aa-4835-6b3d1ecddfd7",
+          "Value": "CD-03"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1687273172772+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1687273172772+0300)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "bcaeeeee-472a-4989-bea1-778cbc3245f5"
+        },
+        {
+          "SchemaColumnUId": "7ef7c259-517b-33aa-4835-6b3d1ecddfd7",
+          "Value": "CD-01"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1687273154412+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1687273154412+0300)\/"
+        }
+      ]
+    },
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "e1a0d01b-e27f-44bc-9dbf-98ef681ee792"
+        },
+        {
+          "SchemaColumnUId": "7ef7c259-517b-33aa-4835-6b3d1ecddfd7",
+          "Value": "CD-04"
+        },
+        {
+          "SchemaColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+          "Value": "\/Date(1687274355060+0300)\/"
+        },
+        {
+          "SchemaColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+          "Value": "\/Date(1687273187905+0300)\/"
+        }
+      ]
+    }
+  ]
+}
