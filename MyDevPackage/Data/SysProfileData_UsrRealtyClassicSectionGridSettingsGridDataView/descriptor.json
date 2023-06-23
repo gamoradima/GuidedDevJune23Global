@@ -1,0 +1,84 @@
+﻿{
+  "Descriptor": {
+    "UId": "b67e7b34-6ad4-c2a0-f490-012c801604d0",
+    "Name": "SysProfileData_UsrRealtyClassicSectionGridSettingsGridDataView",
+    "ModifiedOnUtc": "\/Date(1687533875000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "a3251d81-1788-4245-88f1-23ae03e4057b",
+      "Name": "SysProfileData"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "6851587b-0b7a-45cb-a5a5-31994420d81b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ObjectId",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "03a27b75-6d7f-4be4-b0fd-f03ffd8a7aab",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Contact",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "e80190a5-03b2-4095-90f7-a193a960adee",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "CreatedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      },
+      {
+        "ColumnUId": "986fc9ee-72b2-4cc9-af5e-ed64af54d30f",
+        "IsForceUpdate": true,
+        "IsKey": false,
+        "ColumnName": "ObjectData",
+        "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
+      },
+      {
+        "ColumnUId": "fd26b95c-06ba-4595-915e-bc5657d10842",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "SysCulture",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "216b38f5-e2c3-462b-ae2e-1df80fc21b33",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SysUser",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "99d21524-ccad-45c1-998d-e9de6a6412af",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ObjectDifference",
+        "DataTypeValueUId": "b7342b7a-5dde-40de-aa7c-24d2a57b3202"
+      },
+      {
+        "ColumnUId": "3bb9d182-ad73-4379-9d51-2003c862a90c",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Key",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9928edec-4272-425a-93bb-48743fee4b04",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "ModifiedOn",
+        "DataTypeValueUId": "d21e9ef4-c064-4012-b286-fa1a8171da44"
+      }
+    ]
+  }
+}

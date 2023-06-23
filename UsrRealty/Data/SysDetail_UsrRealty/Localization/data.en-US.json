@@ -1,0 +1,18 @@
+{
+	"PackageData": [
+		{
+			"Row": [
+				{
+					"SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+					"ColumnName": "Id",
+					"Value": "df99ddf8-3c80-4da9-b00f-2cca232d8ad1"
+				},
+				{
+					"SchemaColumnUId": "49ad8ee2-65a6-4cdd-b8f6-85c2f10a54dc",
+					"ColumnName": "Caption",
+					"Value": "Realty detail"
+				}
+			]
+		}
+	]
+}

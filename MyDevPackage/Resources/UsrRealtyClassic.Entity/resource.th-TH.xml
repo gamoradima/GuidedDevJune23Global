@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.UsrName.Caption" Value="ชื่อ" />
+			<Item Name="Columns.UsrNotes.Caption" Value="เลื่อน" />
+		</Items>
+	</Group>
+</Resources>

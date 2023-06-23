@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="nl-NL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.UsrName.Caption" Value="Naam" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Aantekeningen" />
+		</Items>
+	</Group>
+</Resources>

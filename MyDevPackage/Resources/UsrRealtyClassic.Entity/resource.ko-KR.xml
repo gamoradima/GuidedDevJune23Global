@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.UsrName.Caption" Value="이름" />
+			<Item Name="Columns.UsrNotes.Caption" Value="메모" />
+		</Items>
+	</Group>
+</Resources>

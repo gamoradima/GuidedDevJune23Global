@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Visit (Freedom UI)" />
+			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
+			<Item Name="Columns.UsrParentRealty.Caption" Value="Parent Realty" />
+			<Item Name="Columns.UsrPotentialCustomer.Caption" Value="Potential customer" />
+			<Item Name="Columns.UsrVisitDateTime.Caption" Value="Visit date and time" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Страница с реестром Realty" />
+			<Item Name="LocalizableStrings.RefreshButtonCaption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.SearchFilter_placeholder.Value" Value="Поиск" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pl-PL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.UsrName.Caption" Value="Nazwa" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notatki" />
+		</Items>
+	</Group>
+</Resources>

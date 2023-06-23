@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Realty Classic" />
+			<Item Name="Columns.UsrName.Caption" Value="Namespaces" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Hoãn" />
+		</Items>
+	</Group>
+</Resources>

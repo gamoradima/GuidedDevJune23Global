@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="LocalizableStrings.LeadAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.LeadExpansionPanel_title.Value" Value="MQL/SQL" />
+			<Item Name="LocalizableStrings.LeadExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.LeadImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.LeadRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.LeadSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.LeadSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.OpportunityAddButton_caption.Value" Value="Добавить" />
+			<Item Name="LocalizableStrings.OpportunityExpansionPanel_title.Value" Value="Продажи" />
+			<Item Name="LocalizableStrings.OpportunityExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.OpportunityImportDataButton_caption.Value" Value="Импорт данных" />
+			<Item Name="LocalizableStrings.OpportunityRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.OpportunitySearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.OpportunitySettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.RecommendedProductExpansionPanel_title.Value" Value="Рекомендованные продукты" />
+			<Item Name="LocalizableStrings.RecommendedProductExportDataButton_caption.Value" Value="Экспорт в Excel" />
+			<Item Name="LocalizableStrings.RecommendedProductRefreshButton_caption.Value" Value="Обновить" />
+			<Item Name="LocalizableStrings.RecommendedProductSearchFilter_placeholder.Value" Value="Поиск" />
+			<Item Name="LocalizableStrings.RecommendedProductSettingsButton_caption.Value" Value="Действия" />
+			<Item Name="LocalizableStrings.SalesTab_caption.Value" Value="Продажи" />
+		</Items>
+	</Group>
+</Resources>
