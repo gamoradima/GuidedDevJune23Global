@@ -4,6 +4,9 @@
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Realty Classic&quot;" />
 			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="PUSH!" />
+			<Item Name="LocalizableStrings.RunWSButtonCaption.Value" Value="Run WS" />
+			<Item Name="LocalizableStrings.Tab7d67a6b0TabLabelTabCaption.Value" Value="Visits" />
+			<Item Name="LocalizableStrings.UsrSchemafea281acDetail5a59f4cfDetailCaptionOnPage.Value" Value="Realty visit (Classic)" />
 			<Item Name="LocalizableStrings.ValueMustBeGreaterThanZero.Value" Value="Value must be greater than zero" />
 		</Items>
 	</Group>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.AddDataUserTask1.Caption" Value="add visit" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source filters" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.EntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.FilterEntitySchemaId.Caption" Value="Object" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordAddMode.Caption" Value="Record adding mode" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordDefValues.Caption" Value="Set column values" />
+			<Item Name="BaseElements.AddDataUserTask1.Parameters.RecordId.Caption" Value="Created record Id" />
+			<Item Name="BaseElements.ConditionalSequenceFlow1.Caption" Value="N &gt; 0" />
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="N = N - 1" />
+			<Item Name="BaseElements.ScriptTask1.Caption" Value="send WebSocket message" />
+			<Item Name="Caption" Value="Add realty visits (Classic) process" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="Realty Id" />
+			<Item Name="Parameters.ProcessSchemaParameter2.Caption" Value="N" />
+			<Item Name="Parameters.ProcessSchemaParameter2.DisplayValue" Value="5" />
+		</Items>
+	</Group>
+</Resources>

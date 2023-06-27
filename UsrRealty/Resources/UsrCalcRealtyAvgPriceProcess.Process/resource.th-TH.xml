@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="th-TH">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="หน้าที่ถูกแทปที่มีพื้นที่ด้านซ้าย" />
+			<Item Name="Caption" Value="Calculate average realty price process" />
+		</Items>
+	</Group>
+</Resources>

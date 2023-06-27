@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.FormulaTask1.Caption" Value="get type id" />
+			<Item Name="BaseElements.FormulaTask2.Caption" Value="get offer type id" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Caption" Value="Show output result" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Priority" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.DisplayValue" Value="ab96fa02-7fe6-df11-971b-001d60e938c6" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Result of activity" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.AveragePrice.Caption" Value="Average price, USD" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.AveragePrice.DisplayValue" Value="[#AvgPriceUSD#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Module" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.DisplayValue" Value="Average price result page | UsrAveragePriceResultPage" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Create activity" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Task Id" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Duration" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.DisplayValue" Value="5" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Duration (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Object" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Object schema" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Entry point" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Information on step" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Activity completed" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Running" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Card module" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.DisplayValue" Value="[#Lookup.Schema used in workspace (view) .Process page display module.eb89c336-08b9-4951-bffd-3f5abc433174#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Owner" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.DisplayValue" Value="[#System variable.Current user contact#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Code of the button that the user clicked" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Recommendation" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Remind owner in advance" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Remind owner in advance (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RoleId.Caption" Value="Role" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Show execution page automatically" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.DisplayValue" Value="true" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Show in calendar" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.DisplayValue" Value="false" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.SQLText.Caption" Value="SQL text" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.SQLText.DisplayValue" Value="[#SqlText#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Start executing in" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Start executing in (period)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.DisplayValue" Value="0" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Template" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.DisplayValue" Value="[#Lookup.Schema used in workspace (view) .Tabbed page with area on top.21620f25-166f-42f1-8b4d-224a959040a3#]" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Title" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.DisplayValue" Value="Average price result page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average price result page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.DisplayValue" Value="&quot;[Module]/[Page]/add&quot;" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Use standard page generator" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.DisplayValue" Value="false" />
+			<Item Name="BaseElements.ReadDataUserTask1.Caption" Value="read realty" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.AggregationColumnName.Caption" Value="Name of aggregate function column" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.Caption" Value="Read uncommitted data" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.CanReadUncommitedData.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.Caption" Value="Consider time in the filter" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ConsiderTimeInFilter.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.DataSourceFilters.Caption" Value="Data source of filters" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.Caption" Value="Columns to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.EntityColumnMetaPathes.DisplayValue" Value="3c23668c-71ea-e766-a63e-8f81fb93161a;5fdf2564-ab60-ef26-e224-aa78ef2d62c0" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.Caption" Value="Aggregate function type" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.FunctionType.DisplayValue" Value="0" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.IgnoreDisplayValues.Caption" Value="Do not read displayed values of lookup columns" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.Caption" Value="Number of records to read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.NumberOfRecords.DisplayValue" Value="50" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.OrderInfo.Caption" Value="Columns order" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.Caption" Value="Read first" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ReadSomeTopRecords.DisplayValue" Value="true" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCompositeObjectList.Caption" Value="Collection of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultCount.Caption" Value="Number of records" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultDateTimeFunction.Caption" Value="Function result (Date/Time)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntity.Caption" Value="First item of resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultEntityCollection.Caption" Value="Resulting collection" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultFloatFunction.Caption" Value="Function result (Decimal)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultIntegerFunction.Caption" Value="Function result (Integer)" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultRowsCount.Caption" Value="Number of records read" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.Caption" Value="Type of result" />
+			<Item Name="BaseElements.ReadDataUserTask1.Parameters.ResultType.DisplayValue" Value="0" />
+			<Item Name="Caption" Value="Calculate average realty price process" />
+			<Item Name="LaneSets.LaneSet1.Caption" Value="LaneSet 1" />
+			<Item Name="LaneSets.LaneSet1.Lanes.Lane1.Caption" Value="Lane 1" />
+			<Item Name="NotificationCaption.Caption" Value="Process instance caption" />
+			<Item Name="NotificationCaption.DisplayValue" Value="[#Process name#]" />
+			<Item Name="Parameters.AvgPriceUSDParameter.Caption" Value="AvgPriceUSD" />
+			<Item Name="Parameters.ProcessSchemaParameter1.Caption" Value="Realty Id" />
+			<Item Name="Parameters.RealtyOfferTypeIdParameter.Caption" Value="RealtyOfferTypeId" />
+			<Item Name="Parameters.RealtyTypeIdParameter.Caption" Value="RealtyTypeId" />
+			<Item Name="Parameters.SqlTextParameter.Caption" Value="SqlText" />
+		</Items>
+	</Group>
+</Resources>

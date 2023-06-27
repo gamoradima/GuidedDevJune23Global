@@ -8,6 +8,8 @@
 			<Item Name="LocalizableStrings.addRecord_na70b6o_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_t1b74fd_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.Button_9vrmcri_caption.Value" Value="PUSH ME!" />
+			<Item Name="LocalizableStrings.Button_lwx4xzk_caption.Value" Value="RUN ..." />
+			<Item Name="LocalizableStrings.Button_yqf9r8u_caption.Value" Value="Run WS" />
 			<Item Name="LocalizableStrings.ExpansionPanel_bcb815h_title.Value" Value="Realty Visit (Freedom UI)" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_n5f9zyi_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_o4gv0b0_caption.Value" Value="Export to Excel" />
@@ -15,6 +17,8 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_tg0lm7q_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_kwc7ixz_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_fxf6l5q_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.MenuItem_0jjp8m8_caption.Value" Value="Calc avg price" />
+			<Item Name="LocalizableStrings.MenuItem_cau1w0f_caption.Value" Value="Add visits" />
 			<Item Name="LocalizableStrings.NumberInput_s2cmx8o_label.Value" Value="Number" />
 		</Items>
 	</Group>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="it-IT">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Pagina con tab e area a sinistra" />
+			<Item Name="Caption" Value="Calculate average realty price process" />
+		</Items>
+	</Group>
+</Resources>

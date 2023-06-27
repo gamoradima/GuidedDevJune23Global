@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Página com abas de áreas à esquerda" />
+			<Item Name="Caption" Value="Calculate average realty price process" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,4 +1,4 @@
-define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrRealty_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -66,6 +66,88 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
+				"name": "Button_yqf9r8u",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_yqf9r8u_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceButtonRequest"
+					},
+					"clickMode": "default",
+					"icon": "relationship-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "Button_lwx4xzk",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_lwx4xzk_caption)#",
+					"color": "warn",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-text",
+					"visible": true,
+					"clicked": {},
+					"clickMode": "menu",
+					"menuItems": []
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_cau1w0f",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_cau1w0f_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAddRealtyVisitsProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					},
+					"icon": "box-icon"
+				},
+				"parentName": "Button_lwx4xzk",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_0jjp8m8",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_0jjp8m8_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcRealtyAvgPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "ProcessSchemaParameter1"
+						}
+					},
+					"icon": "calculator-button-icon"
+				},
+				"parentName": "Button_lwx4xzk",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "MyButton",
 				"values": {
 					"type": "crt.Button",
@@ -83,7 +165,7 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -758,6 +840,52 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			}
 		}/**SCHEMA_MODEL_CONFIG*/,
 		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "usr.RunWebServiceButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					this.console.log("Run web service button works...");
+
+					var typeObject = await request.$context.LookupAttribute_2zr3po1;
+					var typeId = "";
+					if (typeObject) {
+						typeId = typeObject.value;
+					}
+					// get id from type lookup type object
+
+					var offerTypeObject = await request.$context.LookupAttribute_6vnoapv;
+					var offerTypeId = "";
+					if (offerTypeObject) {
+						offerTypeId = offerTypeObject.value;
+					}
+					// get id from type lookup offer type object
+
+					/* Create an instance of the HTTP client from @creatio-devkit/common. */
+					const httpClientService = new sdk.HttpClientService();
+
+					/* Specify the URL to retrieve the current rate. Use the coindesk.com external service. */
+					const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+					const transferName = "rest";
+					const serviceName = "RealtyService";
+					const methodName = "GetTotalAmountByTypeId";
+					const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+					
+					//const endpoint = "http://localhost/D5_8.0.8.4758/0/rest/RealtyService/GetTotalAmountByTypeId";
+					/* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+					var params = {
+						realtyTypeId: typeId,
+						realtyOfferTypeId: offerTypeId,
+						entityName: "UsrRealty"
+					};
+					const response = await httpClientService.post(endpoint, params);
+					
+					this.console.log("response total price = " + response.body.GetTotalAmountByTypeIdResult);
+					
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			},	
+
 			{
 				request: "usr.MyButtonRequest",
 				/* Implementation of the custom query handler. */

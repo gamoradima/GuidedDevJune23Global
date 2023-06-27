@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Сторінка з вкладками та область ліворуч" />
+			<Item Name="Caption" Value="Calculate average realty price process" />
+		</Items>
+	</Group>
+</Resources>
