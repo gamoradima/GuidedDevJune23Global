@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Gold rate service" />
+			<Item Name="ServiceMethods.UsrMethod1.Caption" Value="/api/Rate/Gold" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrCSList.Caption" Value="CashSellList" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrCSList.ItemProperties.UsrCSLRate.Caption" Value="Rate" />
+			<Item Name="ServiceMethods.UsrMethod1.Response.Parameters.UsrCSList.ItemProperties.UsrCSLWeight.Caption" Value="Weight" />
+		</Items>
+	</Group>
+</Resources>
